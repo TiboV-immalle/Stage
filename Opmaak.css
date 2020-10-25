@@ -10,7 +10,8 @@ header{
     padding: 15px 15px 70px 15px;
     background-color:aliceblue;
     color: rgb(29, 208, 193);
-    border-radius: 10 px;
+    border-width: 15px;
+    border-color:rgb(29, 208, 193) ;
     margin-bottom: 20px;
     margin-right: 10px;
 }
@@ -21,6 +22,7 @@ nav{
 nav a{
     text-decoration: none;
     float: right;
+    align-items: center;
     padding: 10px 20px 10px 20px;
     color: rgb(23, 41, 73);
 }
@@ -41,6 +43,7 @@ article{
 
 #Coriotech{
     float: left;
-    height: ;   
+    align-items: center;
+
 }
 
