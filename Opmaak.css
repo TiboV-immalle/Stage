@@ -7,6 +7,7 @@ body{
 }
 
 header{
+    width: 80%;
     padding: 10px 10px 50px 15px;
     background-color:aliceblue;
     color: rgb(29, 208, 193);
@@ -16,22 +17,32 @@ header{
     margin-right: 10px;
 }
 nav{
-    padding-top: 10px;
+    background-color: rgb(29, 208, 193);
     color: rgb(29, 208, 193);
 }
 nav a{
+    font-family: inherit;
+    font-style: inherit;
+    border-top: 3px solid aliceblue;
+    font-size: 20px;
+    transition: 0.4s;
     text-decoration: none;
     float: right;
-    align-items: center;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
     color: rgb(23, 41, 73);
 }
 
 nav a:hover{
+    border-top: 3 solid aliceblue;
+    padding: 24px 10px;
     background-color: rgb(23, 41, 73) ;
     color: rgb(29, 208, 193) ;
 }
 article{
+    font-family: inherit;
+    font-style: inherit;
+    padding: 10px 10px 50px 15px;
     flex:80%;
     align-items: center;
     display: inline-block;
@@ -43,7 +54,9 @@ article{
 
 #Coriotech{
     float: left;
-    align-items: center;
-
+    align-items: center; 
 }
 
+p{
+;
+}
