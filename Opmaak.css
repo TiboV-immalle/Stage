@@ -36,7 +36,7 @@ nav a:hover{
     background-color: rgb(23, 41, 73) ;
     color: rgb(29, 208, 193) ;
 }
-article{
+section{
     font-family: inherit;
     font-style: inherit;
     padding: 10px 10px 50px 15px;
@@ -53,5 +53,11 @@ article{
     float: left;
     align-items: center; 
 }
-
-
+article{
+    width: 60%;
+    float: left;
+}
+aside{
+    float: right;
+    flex: 40%;
+}
