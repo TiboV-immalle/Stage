@@ -8,10 +8,9 @@ body{
 
 header{
     width: 80%;
-    padding: 10px 10px 50px 15px;
+    padding: 20px 10px 50px 15px;
     background-color:aliceblue;
     color: rgb(29, 208, 193);
-    border-width: 15px;
     border-color:rgb(29, 208, 193) ;
     margin-bottom: 20px;
     margin-right: 10px;
@@ -23,7 +22,6 @@ nav{
 nav a{
     font-family: inherit;
     font-style: inherit;
-    border-top: 3px solid aliceblue;
     font-size: 20px;
     transition: 0.4s;
     text-decoration: none;
@@ -34,7 +32,6 @@ nav a{
 }
 
 nav a:hover{
-    border-top: 3 solid aliceblue;
     padding: 24px 10px;
     background-color: rgb(23, 41, 73) ;
     color: rgb(29, 208, 193) ;
