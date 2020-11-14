@@ -1,23 +1,29 @@
 body{
     width: 100%; 
     background-color:rgb(23, 41, 73) ;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     height: 100%;
+    
 }
 
 header{
     width: 80%;
-    padding: 20px 10px 50px 15px;
+    padding: 20px 20px 50px 20px;
     background-color:aliceblue;
     color: rgb(29, 208, 193);
+    display: block;
+    align-items: center;
     border-color:rgb(29, 208, 193) ;
+    margin-left: 10px;
     margin-bottom: 20px;
     margin-right: 10px;
+    margin: 20px ;
 }
 nav{
     background-color: rgb(29, 208, 193);
     color: rgb(29, 208, 193);
+    
 }
 nav a{
     font-family: inherit;
@@ -39,14 +45,15 @@ nav a:hover{
 section{
     font-family: inherit;
     font-style: inherit;
-    padding: 10px 10px 50px 15px;
+    padding: 20px;
     flex:80%;
-    align-items: center;
+    align-items: flex-start;
     display: inline-block;
     width: 80%;
     height: 80%;
     background-color:aliceblue;
     color: rgb(23, 41, 73) ;
+    margin: 20px 20px;
 }
 
 #Coriotech{
@@ -54,10 +61,16 @@ section{
     align-items: center; 
 }
 article{
+    flex: 80%;
+    display: inline-block;
+    align-items: flex-start;
     width: 60%;
     float: left;
 }
 aside{
     float: right;
-    flex: 40%;
+    width: 30%;
+    display: block;
+    margin: 10px;
 }
+
