@@ -57,9 +57,9 @@ section{
 }
 
 #Coriotech{
-    float: left;
-    align-items: center; 
+    float: left; 
 }
+
 article{
     flex: 80%;
     display: inline-block;
@@ -68,9 +68,25 @@ article{
     float: left;
 }
 aside{
+    flex: 40%;
     float: right;
+    align-items: flex-end;
     width: 30%;
-    display: block;
+    display:inline-block;
     margin: 10px;
+}
+
+footer{
+    background-color:  rgb(29, 208, 193);
+    color: aliceblue;
+    flex: 80%;
+    padding: 20px;
+    display: inline-block;
+    width: 80%;
+    margin: 10px 20px;
+}
+
+h2{
+    color: rgb(23, 41, 73);
 }
 
