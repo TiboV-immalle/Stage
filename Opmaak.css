@@ -61,21 +61,23 @@ section{
 }
 
 article{
-    flex: 80%;
+    justify-content: flex-start;
     display: inline-block;
     align-items: flex-start;
-    width: 60%;
-    float: left;
+    width: 50%;
+    
 }
 aside{
     flex: 40%;
-    float: right;
-    align-items: flex-end;
-    width: 30%;
-    display:inline-block;
-    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column-reverse wrap-reverse;
+    align-items: flex-start;
 }
-
+#kaart{
+    width: 40%;
+    flex-direction: row-reverse;
+}
 footer{
     background-color:  rgb(29, 208, 193);
     color: aliceblue;
