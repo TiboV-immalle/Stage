@@ -76,7 +76,7 @@ aside{
 }
 #kaart{
     width: 40%;
-    flex-direction: row-reverse;
+    float: right;
 }
 footer{
     background-color:  rgb(29, 208, 193);
