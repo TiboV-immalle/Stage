@@ -21,7 +21,36 @@
     </header>
     <section>
         <article>
+            <h3>Contact Form</h3>
 
+            <div class="container">
+              <form action="/action_page.php">
+                <label for="Vnaam">Voornaam</label>
+                <input type="text" id="Vnaam" name="Voornaam" placeholder="Uw voornaam...">
+            
+                <label for="Fnaam">Famillienaam</label>
+                <input type="text" id="Fnaam" name="Famillienaam" placeholder="Uw naam..">
+            
+                <label for="Provincie">Provincie</label>
+                <select id="Provincie" name="Provincie">
+                  <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                  <option value="West-Vlaanderen">West-Vlaanderen</option>
+                  <option value="Antwerpen">Antwerpen</option>
+                  <option value="Limburg">Limburg</option>
+                  <option value="Luxemburg">Luxemburg</option>
+                  <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                  <option value="Waals-Brabant">Waals-Brabant</option>
+                  <option value="Henegouwen">Henegouwen</option>
+                  <option value="Luik">Luik/Liège</option>
+                  <option value="Namen">Namen/Namur</option>
+                </select>
+            
+                <label for="Vraag">Uw vraag</label>
+                <textarea id="Vraag" name="Uw vraag" placeholder="Stel hier uw vraag.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+              </form>
+            </div>
         </article>
     </section>
     <footer>

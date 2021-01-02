@@ -14,19 +14,11 @@ header{
     color: rgb(29, 208, 193);
     display: block;
     align-items: center;
-    border-color:rgb(29, 208, 193) ;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    margin: 20px ;
+    margin:20px,10px, 20px, 10px ;
+    margin: 20px;
 }
-nav{
-    background-color: rgb(29, 208, 193);
-    color: rgb(29, 208, 193);
-    
-}
+
 nav a{
-    font-family: inherit;
     font-style: inherit;
     font-size: 20px;
     transition: 0.4s;
@@ -38,12 +30,11 @@ nav a{
 }
 
 nav a:hover{
-    padding: 24px 10px;
+    padding: 15px 10px;
     background-color: rgb(23, 41, 73) ;
     color: rgb(29, 208, 193) ;
 }
 section{
-    font-family: inherit;
     font-style: inherit;
     padding: 20px;
     flex:80%;
@@ -68,11 +59,7 @@ article{
     
 }
 aside{
-    flex: 40%;
-    display: flex;
-    justify-content: flex-end;
-    flex-flow: column-reverse wrap-reverse;
-    align-items: flex-start;
+    flex-direction: row;
 }
 #kaart{
     width: 40%;
@@ -91,4 +78,35 @@ footer{
 h2{
     color: rgb(23, 41, 73);
 }
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
