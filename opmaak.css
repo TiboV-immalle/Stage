@@ -6,7 +6,13 @@ body{
     height: 100%;
     
 }
-
+table , td, th{
+    border: 2px solid rgb(23, 41, 73);
+    border-collapse: collapse;
+}
+th, td{
+    padding: 5px;
+}
 header{
     width: 80%;
     padding: 20px 20px 50px 20px;
@@ -78,6 +84,7 @@ footer{
 h2{
     color: rgb(23, 41, 73);
 }
+
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
@@ -93,8 +100,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color:rgb(23, 41, 73);
+  color: aliceblue;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -102,11 +109,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: rgb(29, 66, 129);
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color:aliceblue;
   padding: 20px;
 }
