@@ -4,7 +4,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    
+    display: block;
+    align-items: center;
 }
 table , td, th{
     border: 2px solid rgb(23, 41, 73);
